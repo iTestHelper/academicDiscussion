@@ -1,0 +1,242 @@
+:root {
+  --th-teal-extra-light: #e2f7f9;
+  --th-teal-light: #79bebe;
+  --th-teal-medium: #077f83;
+  --th-teal-dark: #066a6e;
+  --th-teal-darkest: #00565d;
+
+  --th-orange-extra-light: #fbeacd;
+  --th-orange-light: #feeab8;
+  --th-orange-medium: #f7b524;
+  --th-orange-dark: #d75a00;
+  --th-orange-darkest: #bd4f00;
+}
+
+.btn {
+  max-width: 150px;
+}
+.fs-6 {
+  font-size: 0.5rem !important;
+}
+
+.fs-7 {
+  font-size: 0.75rem !important;
+}
+
+.fs-8 {
+  font-size: 0.875rem !important;
+}
+
+.fs-section {
+  font-size: 15px;
+  font-weight: 700px;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+.border-l-4 {
+  border-left-style: solid;
+  border-left-width: 4px;
+  /* margin-left: 12pt; */
+  padding-left: 8pt;
+}
+
+.border-l-3 {
+  border-left-style: solid;
+  border-left-width: 3px;
+  margin-left: -15px;
+  padding-left: 13px;
+}
+
+.border-l-teal {
+  border-left-color: teal;
+}
+
+.highlighted {
+  background-color: teal;
+  color: white;
+}
+
+#question {
+  font-weight: 600;
+}
+
+.bg-teal {
+  background: #38979d;
+}
+
+.bg-teal-dark {
+  --bs-bg-opacity: 1;
+  background-color: var(--th-teal-dark) !important;
+}
+
+.bg-custom-gray {
+  background-color: #f9f9f9;
+}
+
+.btn:focus {
+  outline: 2px solid #333333 !important;
+  box-shadow: none !important;
+}
+
+.limited-height {
+  max-height: calc(100vh - 48px - 32px);
+  overflow: hidden;
+}
+
+#reading {
+  height: calc(100vh - 48px - 32px - 8px);
+}
+
+#writing {
+  height: calc(100vh - 48px - 32px - 8px - 16px);
+}
+
+.btn-outline-default {
+  --bs-btn-font-size-lg: 13px;
+  --bs-btn-font-size: 13px;
+  --bs-btn-font-size-sm: 11px;
+  --bs-btn-padding-x: 24px;
+  --bs-btn-height: 40px;
+  --bs-btn-font-weight: 700;
+  --bs-btn-line-height: 25px;
+  --bs-btn-min-width: 62px;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--th-teal-medium);
+  --bs-btn-border-width: 1px;
+  --bs-btn-border-color: var(--bs-white);
+  --bs-btn-border-radius: 0.75rem;
+
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: var(--th-teal-darkest);
+  --bs-btn-hover-border-color: var(--bs-white);
+
+  --bs-btn-focus-shadow-rgb: 13, 110, 253;
+
+  --bs-btn-active-color: var(--bs-dark);
+  --bs-btn-active-bg: var(--th-teal-darkest);
+  --bs-btn-active-border-width: 1px;
+  --bs-btn-active-border-color: var(--bs-white);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+
+  --bs-btn-disabled-color: var(--th-teal-extra-light);
+  --bs-btn-disabled-bg: var(--th-teal-light);
+  --bs-btn-disabled-border-color: var(--bs-white);
+  --bs-gradient: none;
+}
+
+.btn-next {
+  --bs-btn-bg: var(--bs-white);
+  --bs-btn-color: var(--th-teal-dark);
+  --bs-btn-hover-color: var(--th-teal-darkest);
+  --bs-btn-hover-bg: var(--bs-white);
+  --bs-btn-active-bg: var(--bs-white);
+  --bs-btn-active-color: var(--th-teal-darkest);
+}
+
+.btn-outline-feature {
+  --bs-btn-font-size: 1.5rem;
+  --bs-btn-font-size-lg: 1rem;
+  --bs-btn-font-size-sm: 0.75rem;
+  --bs-btn-padding-x: 0.5rem;
+  --bs-btn-padding-y: 0rem;
+  --bs-btn-color: var(--bs-black);
+  --bs-btn-bg: var(--th-orange-light);
+  --bs-btn-border-width: 2px;
+  --bs-btn-border-color: var(--th-orange-medium);
+  --bs-btn-border-radius: var(--bs-border-radius);
+
+  --bs-btn-hover-color: var(--bs-dark);
+  --bs-btn-hover-bg: var(--th-orange-medium);
+  --bs-btn-hover-border-color: var(--th-orange-medium);
+
+  --bs-btn-focus-shadow-rgb: 13, 110, 253;
+  --bs-btn-active-color: var(--th-orange-dark);
+  --bs-btn-active-bg: var(--bs-white);
+  --bs-btn-active-border-width: 2px;
+  --bs-btn-active-border-color: var(--th-orange-dark);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+
+  --bs-btn-disabled-color: var(--th-orange-extra-light);
+  --bs-btn-disabled-bg: var(--th-orange-light);
+  --bs-btn-disabled-border-color: var(--bs-white);
+  --bs-gradient: none;
+}
+
+.info-bar span {
+  margin: 0 5px;
+}
+
+/* Works on Firefox */
+* {
+  /*scrollbar-width: thin;
+  scrollbar-color: #babac0 #f4f4f4;*/
+}
+
+/* Customize website's scrollbar like Mac OS
+Not supports in Firefox and IE */
+
+/* total width */
+*::-webkit-scrollbar {
+  background-color: transparent;
+  width: 7px;
+  height: 7px;
+  z-index: 999999;
+}
+
+/* background of the scrollbar except button or resizer */
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* scrollbar itself */
+*::-webkit-scrollbar-thumb {
+  background-color: #606060;
+  border-radius: 10px;
+  visibility: visible;
+}
+
+/* set button(top and bottom of the scrollbar) */
+*::-webkit-scrollbar-button {
+  display: none;
+}
+
+/* scrollbar when scrollbar is hovered */
+*:active::-webkit-scrollbar-thumb,
+*:focus::-webkit-scrollbar-thumb,
+*:hover::-webkit-scrollbar-thumb {
+  background-color: #808080;
+  visibility: visible;
+}
+
+/* Applying styles when checking the buttons */
+#responseOptions .form-check-input {
+  border-color: var(--bs-dark);
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+#responseOptions .form-check-input:checked {
+  background-color: var(--th-teal-dark);
+  border-color: var(--bs-dark);
+  /*background-image: none;*/
+}
+
+#responseOptions .form-check input,
+label {
+  cursor: pointer;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+#wr {
+  font-size: 15px;
+}
