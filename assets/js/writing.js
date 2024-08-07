@@ -430,7 +430,7 @@ data.forEach((item, index) => {
   const button = document.createElement("button");
   button.innerText = item.Title;
   button.addEventListener("click", () => openDetailPage(index));
-  button.className = "btn btn-success d-inline-block rounded rounded-4";
+  button.className = "btn btn-outline-success d-inline-block rounded rounded-4";
   btnWrapper.appendChild(button);
   buttonContainer.appendChild(btnWrapper);
 });
