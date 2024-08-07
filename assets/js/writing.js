@@ -425,7 +425,7 @@ const buttonContainer = document.getElementById("button-container");
 // Create buttons for each title
 data.forEach((item, index) => {
   const btnWrapper = document.createElement("div");
-  btnWrapper.className = "w-25 p-3";
+  btnWrapper.className = "w-25 px-3 py-2";
 
   const button = document.createElement("button");
   button.innerText = item.Title;
